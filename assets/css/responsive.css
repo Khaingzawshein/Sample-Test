@@ -1,0 +1,1212 @@
+/*******************
+Break Point
+********************/
+@media only screen and (min-width: 992px) {
+    .pcOnly {
+        display: block !important;
+    }
+
+    .smOnly {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .pcOnly {
+        display: none !important;
+    }
+
+    .smOnly {
+        display: block !important;
+    }
+}
+
+/******************* End Break Point ********************/
+
+/*******************
+Header
+********************
+/*** Small Break Point ***/
+@media only screen and (max-width: 575px) {
+    .logo-container {
+        width: 50% !important;
+    }
+
+    .headerWrap {
+        padding: 0 15px !important;
+        height: 70px !important;
+    }
+
+    .logo img {
+        width: 100px !important;
+    }
+
+    .hamburgerMenu i {
+        font-size: 24px !important;
+    }
+}
+
+/*** End Small Break Point ***/
+
+/******************* End Header ********************/
+
+/*******************
+Home Slider 
+********************/
+
+/*** Extra Large Break Point ***/
+@media only screen and (min-width: 1200px) {
+    .owl-nav .owl-next {
+        position: relative;
+    }
+
+    .owl-nav .owl-next::after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 3px;
+        background: #B8A47E;
+        position: absolute;
+        bottom: 36px;
+        left: 20px;
+    }
+
+    .owl-nav span {
+        font-size: 50px;
+    }
+
+    .owl-theme .owl-nav {
+        position: absolute;
+        top: 60px;
+        left: 70px;
+        rotate: 90deg;
+    }
+
+    .owl-theme .owl-dots {
+        rotate: 90deg;
+        position: absolute;
+        left: -8px;
+        top: 250px;
+    }
+
+    .owl-dots .owl-dot button {
+        rotate: -90deg  ;
+    }
+}
+
+/*** End Extra Large Break Point ***/
+
+/*** Large Break Point ***/
+@media (max-width: 1199px) and (min-width: 992px) {
+    .home-slider-section {
+        height: 365px !important;
+    }
+
+    .home-slider-text h1 {
+        font-size: 38px !important;
+    }
+
+    .home-slider-img {
+        width: 60% !important;
+    }
+
+    .owl-nav .owl-next {
+        position: relative;
+    }
+
+    .owl-nav .owl-next::after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 3px;
+        background: #B8A47E;
+        position: absolute;
+        bottom: 36px;
+        left: 20px;
+    }
+
+    .owl-nav span {
+        font-size: 50px;
+    }
+
+    .owl-theme .owl-nav {
+        position: absolute;
+        top: 60px;
+        left: 70px;
+        rotate: 90deg;
+    }
+
+    .owl-theme .owl-dots {
+        rotate: 90deg;
+        position: absolute;
+        left: -8px;
+        top: 250px;
+    }
+
+    .owl-dots .owl-dot button {
+        rotate: -90deg  ;
+    }
+}
+
+/*** End Large Break Point ***/
+
+/*** Medium Break Point ***/
+@media (max-width: 991px) and (min-width: 768px) {
+    .home-slider-section {
+        height: 430px !important;
+    }
+
+    .home-slider-img {
+        width: 100% !important;
+    }
+
+    .home-slider-text {
+        text-align: center !important;
+        left: 0 !important;
+    }
+
+    .home-slider-text h1 {
+        font-size: 34px !important;
+        color: #FFFFFF !important;
+        text-shadow: 5px 5px 5px #000F1A;
+    }
+
+    .home-slider-text p {
+        color: #FFFFFF !important;
+    }
+
+    .home-slider-text a {
+        color: #FFFFFF !important;
+    }
+
+    .home-slider-text a::before {
+        background: #FFFFFF !important;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .owl-dots {
+        position: absolute;
+        bottom:5px;
+        width: 100%;
+    }
+
+    .owl-dots .owl-dot.active button {
+        color:#000000 !important;
+    }
+
+    .owl-dots .owl-dot button {
+        color:#FFFFFF !important;
+    }
+
+    .owl-dots .owl-dot:hover button {
+        color:#000000 !important;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .home-slider-section {
+        height: 320px !important;
+    }
+
+    .home-slider-img {
+        width: 100% !important;
+    }
+
+    .home-slider-text {
+        text-align: center !important;
+        left: 0 !important;
+    }
+
+    .home-slider-text h1 {
+        font-size: 30px !important;
+        color: #FFFFFF !important;
+        text-shadow: 5px 5px 5px #000F1A;
+    }
+
+    .home-slider-text p {
+        color: #FFFFFF !important;
+    }
+
+    .home-slider-text a {
+        color: #FFFFFF !important;
+    }
+
+    .home-slider-text a::before {
+        background: #FFFFFF !important;
+    }
+
+    .owl-dots .owl-dot.active button {
+        font-size: 18px !important;
+    }
+
+    .owl-dots .owl-dot button {
+        font-size: 14px !important;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .owl-dots {
+        position: absolute;
+        bottom:5px;
+        width: 100%;
+    }
+
+    .owl-dots .owl-dot.active button {
+        font-size: 18px !important;
+        color:#000000 !important;
+    }
+
+    .owl-dots .owl-dot button {
+        font-size: 14px !important;
+        color:#FFFFFF !important;
+    }
+
+    .owl-dots .owl-dot:hover button {
+        color:#000000 !important;
+    }
+}
+
+/*** End Medium Break Point ***/
+
+/*** Small Break Point ***/
+@media only screen and (max-width: 575px) {
+    .home-slider {
+        margin-top: -70px !important;
+    }
+
+    .smMenu {
+        padding-bottom: 70px !important;
+    }
+
+    .home-slider-section {
+        height: 280px !important;
+    }
+
+    .home-slider-img {
+        width: 100% !important;
+    }
+
+    .home-slider-text {
+        text-align: center !important;
+        left: 0 !important;
+    }
+
+    .home-slider-text h1 {
+        font-size: 26px !important;
+        color: #FFFFFF !important;
+        text-shadow: 5px 5px 5px #000F1A;
+    }
+
+    .home-slider-text p {
+        color: #FFFFFF !important;
+    }
+
+    .home-slider-text a {
+        color: #FFFFFF !important;
+    }
+
+    .home-slider-text a::before {
+        background: #FFFFFF !important;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .owl-dots {
+        position: absolute;
+        bottom:5px;
+        width: 100%;
+    }
+
+    .owl-dots .owl-dot.active button {
+        font-size: 18px !important;
+        color:#000000 !important;
+    }
+
+    .owl-dots .owl-dot button {
+        font-size: 14px !important;
+        color:#FFFFFF !important;
+    }
+
+    .owl-dots .owl-dot:hover button {
+        color:#000000 !important;
+    }
+}
+
+/*** End Small Break Point ***/
+
+/******************* End Home Slider ********************/
+
+/*******************
+Product Section
+********************/
+
+/*** Extra Large Break Point ***/
+@media only screen and (min-width: 1200px) {
+    .product-img-section img {
+        max-height: 460px !important;
+    }
+}
+
+/*** End Extra Large Break Point ***/
+
+/*** Large Break Point ***/
+@media (max-width: 1199px) and (min-width: 992px) {
+    .product-img-section img {
+        height: 400px !important;
+    }
+
+    .product-info-right .down-arrow {
+        right: 15% !important
+    }
+
+    .product-info-left .down-arrow {
+        left: 15% !important
+    }
+
+}
+
+/*** End Large Break Point ***/
+
+/*** Medium Break Point ***/
+@media (max-width: 991px) and (min-width: 576px) {
+    .product-section {
+        flex-direction: column;
+    }
+
+    .product-img {
+        width: 100% !important;
+        order: 1;
+    }
+
+    .product-img-section img {
+        height: 250px !important;
+    }
+
+    .product-title {
+        right: unset !important;
+        left: unset !important;
+    }
+
+    .product-header {
+        font-size: 30px !important;
+        margin-right: 0 !important;
+    }
+
+    .product-subheader {
+        margin-right: 0 !important;
+        text-align: center !important;
+    }
+
+    .product-info {
+        width: 100% !important;
+        order: 2;
+        padding: 15px 80px 0 80px;
+    }
+
+    .product-info p {
+        font-size: 14px !important;
+        text-align: center;
+        padding: 30px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .product-info-left {
+        padding: 30px 80px 0 80px !important;
+    }
+
+    .product-info-right .down-arrow {
+        right: 0 !important;
+        width: 100px !important;
+        left: 0 !important;
+        margin: auto;
+    }
+
+    .product-info-left p::before {
+        right: 0 !important;
+        left: 0 !important;
+    }
+
+    .product-info-left .down-arrow {
+        right: 0 !important;
+        width: 100px !important;
+        left: 0 !important;
+        margin: auto;
+    }
+}
+
+/*** End Medium Break Point ***/
+
+/*** Small Break Point ***/
+@media only screen and (max-width: 575px) {
+    section {
+        padding: 80px 0 !important;
+    }
+
+    .product-section {
+        flex-direction: column;
+    }
+
+    .product-img {
+        width: 100% !important;
+        order: 1;
+    }
+
+    .product-title {
+        right: unset !important;
+        left: unset !important;
+    }
+
+    .product-header {
+        font-size: 24px !important;
+        margin-right: 0 !important;
+    }
+
+    .product-subheader {
+        margin-right: 0 !important;
+        text-align: center !important;
+        font-size: 14px !important;
+    }
+
+    .product-info {
+        width: 100% !important;
+        order: 2;
+        padding: 15px 40px 0 40px !important;
+    }
+
+    .product-info p {
+        font-size: 14px !important;
+        text-align: center;
+        padding: 15px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .product-info-right .down-arrow {
+        right: 0 !important;
+        width: 100px !important;
+        left: 0 !important;
+        margin: auto;
+    }
+
+    .product-info-left {
+        padding: 30px 40px 0 40px !important;
+    }
+
+    .product-info-left p::before {
+        font-size: 18px !important;
+        right: 0 !important;
+        left: 0 !important;
+    }
+
+    .product-info-left .down-arrow {
+        right: 0 !important;
+        width: 100px !important;
+        left: 0 !important;
+        margin: auto;
+    }
+}
+
+/*** End Small Break Point ***/
+
+/******************* End Product Section  ********************/
+
+/*******************
+Product Collection
+********************/
+
+/*** Extra Large Break Point ***/
+@media only screen and (min-width: 1200px) {
+    .collection-one-section-img img {
+        min-height: 460px !important;
+    }
+
+    .collection-one-subsection-img img,
+    .collection-two-img img,
+    .collection-three-img img {
+        min-height: 350px !important;
+    }
+}
+
+/*** End Extra Large Break Point ***/
+
+/*** Large Break Point ***/
+@media (max-width: 1199px) and (min-width: 992px) {
+    .title::after {
+        padding-right: 100px !important;
+    }
+
+    .title::before {
+        right: 290px !important;
+    }
+
+    .collection-one-section-img img {
+        height: 400px !important;
+    }
+
+    .collection-one-section-info h4,
+    .collection-one-subsection-info h4,
+    .collection-two-info h4 {
+        font-size: 18px !important;
+    }
+
+    .collection-one-section-info h4::before {
+        top: -40px !important;
+        right: 0 !important;
+    }
+
+    .collection-one-section-info p,
+    .collection-one-subsection-info p,
+    .collection-two-info p {
+        margin: 10px 0 !important;
+        font-size: 15px !important;
+    }
+
+    .collection-one-subsection-img img,
+    .collection-two-img img,
+    .collection-three-img img {
+        height: 300px !important;
+    }
+
+    .collection-one-subsection-img::after {
+        width: 100px !important;
+        height: 40px !important;
+    }
+
+    .collection-one-subsection-img::before {
+        right: 40% !important;
+    }
+}
+
+/*** End Large Break Point ***/
+
+/*** Medium Break Point ***/
+@media (max-width: 991px) and (min-width: 768px) {
+    .title {
+        font-size: 37px !important;
+    }
+
+    .title::after {
+        padding-right: 80px !important;
+    }
+
+    .title::before {
+        right: 270px !important
+    }
+
+    .collection-one {
+        margin-top: 90px !important;
+    }
+
+    .collection-one-section,
+    .collection-one-subsection,
+    .collection-two,
+    .collection-three {
+        flex-direction: column;
+    }
+
+    .collection-one-section-img {
+        width: 100% !important;
+        margin-right: 0px !important;
+    }
+
+    .collection-one-section-img::before {
+        font-size: 37px !important;
+        top: -60px !important;
+    }
+
+    .collection-one-section-img::after {
+        top: -30px !important;
+        left: 55px !important;
+    }
+
+    .collection-one-section-img img,
+    .collection-one-subsection-img img,
+    .collection-two-img img,
+    .collection-three-img img {
+        height: 370px !important;
+    }
+
+    .collection-one-section-info {
+        width: 100% !important;
+        margin: auto !important;
+        text-align: center;
+        padding-top: 15px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .collection-one-section-info h4,
+    .collection-one-subsection-info h4,
+    .collection-two-info h4 {
+        font-size: 18px !important;
+    }
+
+    .collection-one-section-info h4::before {
+        top: -40px !important;
+        right: 0 !important;
+        margin: auto !important;
+    }
+
+    .collection-one-section-info p,
+    .collection-one-subsection-info p,
+    .collection-two-info p {
+        margin: 10px 0 !important;
+        font-size: 14px !important;
+    }
+
+    .collection-one-subsection-img {
+        order: 1;
+        width: 100% !important;
+        margin: 0 !important;
+        margin-top: 90px !important;
+    }
+
+    .collection-one-subsection-info,
+    .collection-two-info {
+        width: 100% !important;
+        order: 2;
+        margin: auto !important;
+        text-align: center;
+        padding-top: 15px !important;
+    }
+
+    .collection-one-subsection-info h4::before {
+        height: 80px !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto;
+        top: -80px !important;
+    }
+
+    .collection-one-subsection-img::before {
+        height: 80px !important;
+        right: 22% !important;
+    }
+
+    .collection-one-subsection-img::after {
+        height: 40px !important;
+        width: 100px !important;
+    }
+
+    .collection-two-img,
+    .collection-three-img {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .collection-two-info {
+        padding-bottom: 60px !important;
+    }
+
+    .collection-two-img::before,
+    .collection-three-img::before {
+        font-size: 37px !important;
+        top: -45px !important;
+        left: 0 !important;
+        text-align: center;
+        right: 0 !important;
+    }
+
+    .collection-three-img::after {
+        left: 0 !important;
+        font-size: 37px !important;
+        margin: auto;
+        text-shadow: 5px 5px 5px #000F1A !important;
+        right: 0 !important;
+        padding: 20px !important;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .title {
+        font-size: 32px !important;
+    }
+
+    .title::after {
+        padding-right: 90px !important;
+    }
+
+    .title::before {
+        right: 280px !important
+    }
+
+    .collection-one {
+        margin-top: 90px !important;
+    }
+
+    .collection-one-section,
+    .collection-one-subsection,
+    .collection-two,
+    .collection-three {
+        flex-direction: column;
+    }
+
+    .collection-one-section-img {
+        width: 100% !important;
+        margin-right: 0px !important;
+    }
+
+    .collection-one-section-img::before {
+        font-size: 32px !important;
+        top: -50px !important;
+    }
+
+    .collection-one-section-img::after {
+        top: -25px !important;
+        left: 50px !important;
+    }
+
+    .collection-one-section-img img,
+    .collection-one-subsection-img img,
+    .collection-two-img img,
+    .collection-three-img img {
+        min-height: 240px !important;
+    }
+
+    .collection-one-section-info {
+        width: 100% !important;
+        margin: auto !important;
+        text-align: center;
+        padding-top: 15px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .collection-one-section-info h4,
+    .collection-one-subsection-info h4,
+    .collection-two-info h4 {
+        font-size: 18px !important;
+    }
+
+    .collection-one-section-info h4::before {
+        top: -40px !important;
+        right: 0 !important;
+        margin: auto !important;
+    }
+
+    .collection-one-section-info p,
+    .collection-one-subsection-info p,
+    .collection-two-info p {
+        margin: 10px 0 !important;
+        font-size: 14px !important;
+    }
+
+    .collection-one-subsection-img {
+        order: 1;
+        width: 100% !important;
+        margin: 0 !important;
+        margin-top: 90px !important;
+    }
+
+    .collection-one-subsection-info,
+    .collection-two-info {
+        width: 100% !important;
+        order: 2;
+        margin: auto !important;
+        text-align: center;
+        padding-top: 15px !important;
+    }
+
+    .collection-one-subsection-info h4::before {
+        height: 80px !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto;
+        top: -80px !important;
+    }
+
+    .collection-one-subsection-img::before {
+        height: 80px !important;
+        right: 32% !important;
+    }
+
+    .collection-one-subsection-img::after {
+        height: 40px !important;
+        width: 100px !important;
+    }
+
+    .collection-two-img,
+    .collection-three-img {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .collection-two-img::before {
+        font-size: 32px !important;
+        top: -25px !important;
+        left: 0 !important;
+        right: 0 !important;
+        text-align: center;
+    }
+
+    .collection-two-info {
+        padding-bottom: 60px !important;
+    }
+
+    .collection-three-img::before {
+        font-size: 32px !important;
+        top: -30px !important;
+        left: 0 !important;
+        text-align: center;
+        right: 0 !important;
+    }
+
+    .collection-three-img::after {
+        left: 0 !important;
+        font-size: 32px !important;
+        margin: auto;
+        text-shadow: 5px 5px 5px #000F1A !important;
+        right: 0 !important;
+        padding: 20px !important;
+        width: 100% !important
+    }
+}
+
+/*** End Medium Break Point ***/
+
+/*** Small Break Point ***/
+@media only screen and (max-width: 575px) {
+    #product-collection {
+        padding: 50px 50px 0 50px !important;
+    }
+
+    .title {
+        font-size: 29px !important;
+    }
+
+    .title::after {
+        padding-right: 20px !important;
+        font-size: 15px !important;
+    }
+
+    .title::before {
+        right: 190px !important;
+    }
+
+    .collection-one {
+        margin-top: 90px !important;
+    }
+
+    .collection-one-section,
+    .collection-one-subsection,
+    .collection-two,
+    .collection-three {
+        flex-direction: column;
+    }
+
+    .collection-one-section-img {
+        width: 100% !important;
+        margin-right: 0px !important;
+    }
+
+    .collection-one-section-img::before {
+        font-size: 29px !important;
+        top: -30px !important;
+    }
+
+    .collection-one-section-img::after {
+        top: -5px !important;
+        left: 45px !important;
+    }
+
+    .collection-one-section-info {
+        width: 100% !important;
+        margin: auto !important;
+        text-align: center;
+        padding-top: 15px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .collection-one-section-info h4,
+    .collection-one-subsection-info h4,
+    .collection-two-info h4 {
+        font-size: 18px !important;
+    }
+
+    .collection-one-section-info h4::before {
+        top: -40px !important;
+        right: 0 !important;
+        margin: auto !important;
+    }
+
+    .collection-one-section-info p,
+    .collection-one-subsection-info p,
+    .collection-two-info p {
+        margin: 10px 0 !important;
+        font-size: 14px !important;
+    }
+
+    .collection-one-subsection-img {
+        order: 1;
+        width: 100% !important;
+        margin: 0 !important;
+        margin-top: 90px !important;
+    }
+
+    .collection-one-subsection-info,
+    .collection-two-info {
+        width: 100% !important;
+        order: 2;
+        margin: auto !important;
+        text-align: center;
+        padding-top: 15px !important;
+    }
+
+    .collection-one-subsection-info h4::before {
+        height: 80px !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto;
+        top: -80px !important;
+    }
+
+    .collection-one-subsection-img::before {
+        height: 80px !important;
+        right: 32% !important;
+    }
+
+    .collection-one-subsection-img::after {
+        height: 40px !important;
+        width: 100px !important;
+    }
+
+    .collection-two-img,
+    .collection-three-img {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .collection-two-img::before {
+        font-size: 29px !important;
+        top: -25px !important;
+        left: 0px !important;
+        right: 0px !important;
+        text-align: center;
+    }
+
+    .collection-two-info {
+        padding-bottom: 60px !important;
+    }
+
+    .collection-three-img::before {
+        font-size: 29px !important;
+        top: -30px !important;
+        left: 0 !important;
+        text-align: center;
+        right: 0 !important;
+    }
+
+    .collection-three-img::after {
+        left: 0 !important;
+        font-size: 29px !important;
+        margin: auto;
+        text-shadow: 5px 5px 5px #000F1A !important;
+        right: 0 !important;
+        padding: 20px !important;
+        width: 100% !important
+    }
+}
+
+/*** End Small Break Point ***/
+
+/******************* End Product Collection  ********************/
+
+/*******************
+Card Product List
+********************/
+
+/*** Extra Large Break Point ***/
+@media only screen and (min-width: 1200px) {
+    .card-product-text div {
+        display: block !important;
+    }
+}
+
+/*** End Extra Large Break Point ***/
+
+/*** Large Break Point ***/
+@media (max-width: 1199px) and (min-width: 992px) {
+    .card-product-text div {
+        display: block !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .card-product-list ul {
+        justify-content: center;
+    }
+
+    .card-product-text {
+        margin: 0 !important;
+    }
+}
+
+/*** End Large Break Point ***/
+
+/*** Medium Break Point ***/
+@media (max-width: 767px) and (min-width: 576px) {
+    .card-product-list ul {
+        justify-content: center;
+    }
+
+    .card-product-text {
+        margin: 0 !important;
+    }
+
+    .card-product-list img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
+
+/*** End Medium Break Point ***/
+
+/*** Small Break Point ***/
+@media only screen and (max-width: 575px) {
+    #card-product {
+        padding: 15px !important;
+    }
+
+    .card-product-list ul {
+        justify-content: center;
+    }
+
+    .card-product-text {
+        margin: 0 !important;
+    }
+
+    .card-product-list img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
+
+/*** End Small Break Point ***/
+
+/******************* End Card Product List  ********************/
+
+/*******************
+Footer
+********************/
+
+/*** Large Break Point ***/
+@media (max-width: 1199px) and (min-width: 768px) {
+    .footer-section {
+        display: block !important;
+    }
+
+    .footer-section.align-center {
+        display: flex !important;
+    }
+
+    .footer-section-left,
+    .footer-section-right {
+        width: 100% !important;
+    }
+
+    .footer-section-right {
+        margin: 15px 0 !important;
+    }
+
+    .copyright-text,
+    .social-link {
+        width: 50% !important;
+    }
+
+    .footer-nav-link li,
+    .social-link li {
+        margin: 15px 30px !important;
+    }
+}
+
+/*** End Large Break Point ***/
+
+/*** Medium Break Point ***/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .footer-section,
+    .footer-section-left,
+    .footer-nav-link,
+    .social-link {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .footer-logo img {
+        width: 100px !important;
+    }
+
+    .footer-section-right {
+        width: 100% !important;
+        margin: 15px 0 !important;
+    }
+
+    .footer-nav-link li,
+    .social-link li {
+        margin: 15px 30px !important;
+    }
+
+    .footer-logo,
+    .copyright-text {
+        display: block !important;
+        width: 100% !important;
+        padding-bottom: 15px !important;
+    }
+}
+
+/*** End Medium Break Point ***/
+
+/*** Small Break Point ***/
+@media only screen and (max-width: 575px) {
+
+    #footer {
+        padding: 30px 30px 15px 30px !important;
+    }
+
+    .footer-logo img {
+        width: 100px !important;
+    }
+
+    .footer-section,
+    .footer-section-left,
+    .footer-section-right,
+    .footer-nav-link,
+    .copyright-text,
+    .social-link {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .footer-nav-link li,
+    .social-link li {
+        margin: 15px 30px !important;
+    }
+
+    .footer-section-right {
+        margin-left: 0 !important;
+    }
+
+    .address,
+    .newsletter {
+        width: 100% !important;
+        margin: 15px 0 !important;
+    }
+
+    .footer-logo,
+    .copyright-text {
+        display: block !important;
+        width: 100% !important;
+        padding-bottom: 15px !important;
+    }
+}
+
+/*** End Small Break Point ***/
+
+/******************* End Footer ********************/
