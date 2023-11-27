@@ -62,5 +62,27 @@ $(document).ready(function () {
 
   });
 
+    // Add smooth scrolling to all links
+
+    $('a').on("click", function (e) {
+      if (
+        location.pathname.replace(/^\//, "") ==
+        this.pathname.replace(/^\//, "") &&
+        location.hostname == this.hostname
+      ) {
+        if (this.hash !== "") {
+          e.preventDefault();
+          var myHeight = 130;
+          var hash = this.hash;
+          var hashOffset = $(hash).offset().top - myHeight;
+          $("html, body").animate({
+              scrollTop: hashOffset,
+            },
+            800
+          );
+        }
+      }
+    });
+
 });
 
